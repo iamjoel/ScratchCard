@@ -1,5 +1,7 @@
 ## 刮刮卡
  暂时只支持移动端，pc端尚不支持
+
+ 无依赖，可以直接只用script引入，也支持AMD以及es6的import等方式引入
 ## Usages用法
 ```
 #@Class StratchCard 刮刮卡
