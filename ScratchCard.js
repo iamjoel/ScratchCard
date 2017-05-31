@@ -1,5 +1,5 @@
  /**
-    * @Class StratchCard 刮刮卡
+    * @Class ScratchCard 刮刮卡
     * 调用方法
     * var a = new StratchCard({
           el: 'canvas' //挂载的节点元素elementId //default
@@ -22,9 +22,9 @@
      else if (typeof define === 'function' && define.amd)
          define([], factory);
      else if (typeof exports === 'object')
-         exports["StratchCard"] = factory();
+         exports["ScratchCard"] = factory();
      else
-         root["StratchCard"] = factory();
+         root["ScratchCard"] = factory();
  }(this, function() {
      if (typeof Object.assign != 'function') {
          Object.assign = function(target) {
@@ -48,7 +48,7 @@
          };
      }
 
-     function StratchCard(options) {
+     function ScratchCard(options) {
          if ('ontouchstart' in document) {
              this.start = 'touchstart';
              this.move = 'touchmove';
@@ -212,5 +212,5 @@
              return [ctx_x, ctx_y];
          }
      }
-     return StratchCard;
+     return ScratchCard;
  })
