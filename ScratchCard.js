@@ -1,7 +1,7 @@
  /**
     * @Class ScratchCard 刮刮卡
     * 调用方法
-    * var a = new StratchCard({
+    * var a = new ScratchCard({
           el: 'canvas' //挂载的节点元素elementId //default
           font: '40px serif',  //default
           img: {
